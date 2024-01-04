@@ -57,6 +57,12 @@ img {
 .projects__item:hover{
     border: 1px solid #FFCA33;
 }
+.projects__image{
+    height: 320px;
+    width: auto;
+    object-fit: cover;
+    margin: 0 auto;
+}
 .projects__image:hover{
     transform: scale(1.05);
 }
