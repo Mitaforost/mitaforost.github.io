@@ -66,7 +66,9 @@ img {
 .projects__image:hover{
     transform: scale(1.05);
 }
-
+.projects__text{
+    margin: 20px 0;
+}
 .projects__line{
     margin: 20px 0;
     width: 100%;
