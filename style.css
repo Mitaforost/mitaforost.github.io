@@ -44,7 +44,7 @@ img {
 .projects__wrapper{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    column-gap: 50px;
+    gap: 50px;
 }
 .projects__item{
     border: 1px solid rgba(2, 18, 6, 0.1);
@@ -67,7 +67,7 @@ img {
     transform: scale(1.05);
 }
 .projects__text{
-    margin: 20px 0;
+    margin: 20px auto;
 }
 .projects__line{
     margin: 20px 0;
