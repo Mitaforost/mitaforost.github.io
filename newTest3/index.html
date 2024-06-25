@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Form</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/stylesheet.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+<div id="search_form" class="search-wrapper__main">
+    <div class="search-form">
+        <input type="text" name="filter_name" value="{{ search }}" placeholder="{{ text_search }}"
+               class="form-control"/>
+        <div class="actions">
+            <div class="clear" style="display: none;">
+                <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4.06152 4.01477L12.5468 12.5001" stroke="currentColor"/>
+                    <path d="M4.06152 12.5L12.5468 4.01472" stroke="currentColor"/>
+                </svg>
+            </div>
+            <div class="go">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+                    <path d="M11.0615 19C15.4798 19 19.0615 15.4183 19.0615 11C19.0615 6.58172 15.4798 3 11.0615 3C6.64325 3 3.06152 6.58172 3.06152 11C3.06152 15.4183 6.64325 19 11.0615 19Z"
+                          stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M21.0615 21L16.7615 16.7" stroke="currentColor" stroke-linecap="round"
+                          stroke-linejoin="round"/>
+                </svg>
+            </div>
+        </div>
+    </div>
+    <div class="results-wrapper"></div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="./js/index.js"></script>
+</body>
+</html>
